@@ -4,15 +4,17 @@
 public class HolaMundo {
 
     public static void main(String[] args) {
-        despedida();
+      holaMundo();  
+      saludo();
+      despedida();
     }
 
     public static void holaMundo() {
-        
+    System.out.println("Hola Mundo");
     }
 
     public static void saludo() {
-        
+        System.out.println("hola");
     }
 
     public static void despedida() {
