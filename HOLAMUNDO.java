@@ -4,7 +4,8 @@
 public class HolaMundo {
 
     public static void main(String[] args) {
-        holaMundo();
+      holaMundo();  
+      saludo();
     }
 
     public static void holaMundo() {
@@ -12,7 +13,7 @@ public class HolaMundo {
     }
 
     public static void saludo() {
-        
+        System.out.println("hola");
     }
 
     public static void despedida() {
